@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,300&display=swap");
+
+/*tailwind*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#app {
+    @apply h-full w-full;
+}
+
+html {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* SVG */
+.svg-image {
+    fill: none;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.svg-image.stroked {
+    stroke: currentColor;
+}
+
+.svg-image.filled {
+    fill: currentColor;
+}
+
+.tippy-box {
+    color: #f3eff2 !important;
+    background-color: #4e3a4a !important;
+}
+
+/* SCROLLBAR */
+@media (min-width: 768px) {
+    * {
+        scrollbar-height: auto;
+        scrollbar-width: auto;
+    }
+
+    * {
+        scrollbar-color: #091314 #93aca4;
+    }
+
+    ::-webkit-scrollbar {
+        height: 13px;
+        width: 13px;
+    }
+    ::-webkit-scrollbar-track {
+        @apply bg-green_giorgia-300;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 0px;
+    }
+    ::-webkit-scrollbar-thumb {
+        @apply bg-green_giorgia-800;
+    }
+}
