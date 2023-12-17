@@ -397,6 +397,7 @@ materiali e delle palette colore.`;
 const curseDescription = `Ipotesi di ricostruzione set per riproporre la fotografia <i>The Curse of Nanny Goat Island</i> del fotografo inglese Matt Henry. Nel progetto sono
 analizzate piante e prospetti, tutti i dettagli costruttivi degli oggetti di scena, compresi di studio dei materiali e delle palette colore.`;
 const danielaKevinShootingDescription = `Esempio di shooting fotografico in esterna madre e figlio`;
+const familyShootingDescription = `Esempio di shooting di famiglia in esterna`;
 const hekateDescription = `Progetto artistico personale in autoscatto, performato durante la Quarantena: l'incarnazione di una triplice forma di me, confinata nei pochi
 metri concessi dalle necessità del momento, partendo dal bisogno di fare compagnia a me stessa tra il misticismo e la meditazione, con l’uso creativo della fantasia e un pizzico di magia.`;
 const noPlaceLikeHomeDescription = `Cortometraggio di cui è stata curata l’intera produzione, dalla scrittura, alla regia, compreso il lavoro di montaggio e post produzione.`;
@@ -508,6 +509,21 @@ const sections: PortfolioSection[] = [
         imageStyles: "aspect-ratio: 16/9; object-position: 0 40%;",
         isButton: false,
         url: "https://drive.google.com/file/d/1W0UfgIFQtO-WcYMTG3kAsBNC2-kdjfUS/view?usp=share_link",
+    },
+    {
+        title: "Shooting di famiglia",
+        category: CategoryType.photography,
+        description: familyShootingDescription,
+        tags: ["fotografia", "photo editing"],
+        programs: [
+            { image: "lightroom", description: "Lightroom" },
+            { image: "photoshop", description: "Photoshop" },
+        ],
+        image: "pagan_voltolina_resized.jpg",
+        imageClasses: "lg:h-72",
+        imageStyles: "aspect-ratio: 16/9; object-position: 0 40%;",
+        isButton: false,
+        url: "https://drive.google.com/file/d/15h-olwgp2gV-InAw7qn_FFqN_fVDLQjR/view?usp=drive_link",
     },
     {
         title: "Hekate",
