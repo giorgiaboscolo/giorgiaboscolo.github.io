@@ -41,7 +41,7 @@
                             class="text-sm font-light leading-7 text-green_giorgia-800 xl:text-base xl:leading-8"
                         >
                             <p>
-                                Sono Boscolo Giorgia e ho 30 anni. Dopo aver frequentato i primi tre anni di
+                                Sono Boscolo Giorgia e ho 33 anni. Dopo aver frequentato i primi tre anni di
                                 <i>Ingegneria Edile - Architettura</i> presso l’Università di Padova, perseguendo i miei
                                 grandi amori per cinema e fotografia, cambio rotta conseguendo prima il diploma di
                                 laurea di primo livello in <i>Cinema, fotografia e televisione</i> all’Accademia di
